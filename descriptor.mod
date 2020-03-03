@@ -1,4 +1,4 @@
-version="1.8.x"
+version="1.8.*"
 tags={
 	"Technologies"
 }
