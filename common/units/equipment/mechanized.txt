@@ -11,6 +11,7 @@ equipments = {
 			mechanized
 		}
 		group_by = archetype
+		is_convertable = yes
 
 		interface_category = interface_category_land
 
@@ -59,6 +60,12 @@ equipments = {
 		priority = 40
 		visual_level = 1
 
+		is_convertable = yes
+		can_convert_from = {
+			mechanized_equipment_1
+			amphibious_mechanized_equipment_1
+		}
+
 		maximum_speed = 10
 
 		#Defensive Abilities
@@ -86,6 +93,13 @@ equipments = {
 		parent = mechanized_equipment_2
 		priority = 40
 		visual_level = 2
+
+		is_convertable = yes
+		can_convert_from = {
+			mechanized_equipment_1
+			mechanized_equipment_2
+			amphibious_mechanized_equipment_1
+		}
 
 		maximum_speed = 12
 

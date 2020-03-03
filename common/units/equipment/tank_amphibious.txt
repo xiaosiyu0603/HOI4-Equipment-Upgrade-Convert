@@ -56,7 +56,14 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 		can_convert_from = {
+			light_tank_equipment_1
+			light_tank_artillery_equipment_1
+			light_tank_destroyer_equipment_1
+			light_tank_aa_equipment_1
 			light_tank_equipment_2
+			light_tank_artillery_equipment_2
+			light_tank_destroyer_equipment_2
+			light_tank_aa_equipment_2
 		}
 	}
 
@@ -70,6 +77,13 @@ equipments = {
 		is_convertable = yes
 		can_convert_from = {
 			medium_tank_equipment_1
+			medium_tank_artillery_equipment_1
+			medium_tank_destroyer_equipment_1
+			medium_tank_aa_equipment_1
+			medium_tank_equipment_2
+			medium_tank_artillery_equipment_2
+			medium_tank_destroyer_equipment_2
+			medium_tank_aa_equipment_2
 		}
 
 		#Misc Abilities
